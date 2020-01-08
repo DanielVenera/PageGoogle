@@ -1,0 +1,132 @@
+html {
+	min-height: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+body {
+	margin: 20px auto;
+	min-height: 100%;
+}
+
+.lienappli a{
+	text-decoration: none;
+	color: black;
+}
+
+.gmailimages a{
+	text-decoration: none;
+	color: black;
+}
+
+.gmailimages a:hover, .footer a:hover{
+	text-decoration: underline;
+}
+
+#connexion a{
+	text-decoration: none;
+	cursor: default;
+}
+
+
+.footer a {
+	text-decoration: none;
+	color: grey;
+}
+
+.haut {
+	display: flex;
+	justify-content: flex-end; 
+	text-align: right;
+	align-items: center;
+	margin-top : 5px;
+	border: 2PX;
+}
+
+.iconeappli {
+	display: flex;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.iconeappli .un, .iconeappli .deux, .iconeappli .trois, .iconeappli .quatre, .iconeappli .cinq, .iconeappli .six, .iconeappli .sept, .iconeappli .huit, .iconeappli .neuf{
+	height: 6px;
+	width: 6px;
+	margin: 1px 1px;
+	background-color: #272727;
+}
+
+.iconeappli .un:hover, .iconeappli .deux:hover, .iconeappli .trois:hover, .iconeappli .quatre:hover, .iconeappli .cinq:hover, .iconeappli .six:hover, .iconeappli .sept:hover, .iconeappli .huit:hover, .iconeappli .neuf:hover {
+	background-color: black;
+}
+
+
+#connexion {
+	background-color: #4386FA;
+	color: #fff;
+	padding: 5px;
+}
+
+
+
+.haut *{
+	margin: 5px;
+}
+
+.principal {
+		display: flex;
+		vertical-align: middle;
+		width: 400px;
+		margin: 60PX auto;
+		flex-direction: column;
+		align-items : center;
+}
+
+.principal *{
+	margin: 5px;
+}
+
+.divsearchbar {
+	display: flex;
+	justify-content: center;
+	width: 400px;
+	border: 1px solid #E4E4E4;
+	border-radius: 10px;
+}
+
+.divsearchbar:hover{
+	box-shadow: 0px 1px 0px #E4E4E4;
+}
+
+#searchbar{
+	width: 500px;
+	border: none;
+}
+
+#searchbar:focus {
+	outline:none;
+}
+
+.bottom {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+.footer {
+	position : fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #F2F2F2;
+	color: grey;
+	padding: 10px;
+}
+
+.buttons button:hover{
+	box-shadow: 0px 1px 0px #E4E4E4
+}
